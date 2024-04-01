@@ -17,6 +17,7 @@
 志远QQ:1258586900
 
 ### 支持版本
+最新版下载地址：https://pc.weixin.qq.com/
 
 | 微信版本 WeChatWin.dll | 小程序版本  WeChatAppEx.exe | 状态   |
 | ---------------------- | --------------------------- | ------ |
@@ -28,16 +29,17 @@
 
 ### 使用方式
 
-1.下载Python 3.x安装并设置环境变量
+1.下载Python 2.7.1  和 python3 安装并设置环境变量
+注意出现python3也要安装  查看这个教程 https://www.jianshu.com/p/2aa04e01206e  
 
-2.下载Node.JS  v18.15.0安装并设置环境变量
+2.下载Node.JS  v18.15.0 及以上版本安装并设置环境变量
 
 3.进入项目目录 cmd运行 下面命令安装依赖
 
 npm install
 
 4.安装依赖失败的原因：
-     node-gyp 自行安装 并且 自行安装 vs2019 选择C++桌面开发安装，安装后再 npm install
+     node-gyp 自行安装 并且 自行安装 vs2022 选择C++桌面开发安装，并且安装window10 sdk或window11 sdk，安装后再 npm install
      或者自行百度 node-gyp
      
 
@@ -153,6 +155,10 @@ HOOK到小程序加载! wxa+id
 
 ![小程序](./doc/png/wx05.png)
 
-![小程序F12](./doc/png/wx05.png)
+![小程序F12](./doc/png/wx06.png)
 
-##### 
+#### 感谢名单    前后顺序与技术无关
+
+QQ:1156024215     提供思路
+
+QQ:86523553         帮助解决首次安装编译不通过的问题

@@ -1,0 +1,1 @@
+node WeChatAppEx.exe.js 9079 x64
